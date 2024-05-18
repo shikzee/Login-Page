@@ -11,14 +11,14 @@
 .loader {
     height: 35px;
     aspect-ratio: 1;
-    border: 3px solid #ffffff;
+    border: 3px solid #000000;
     animation: l4 2s infinite;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
-    background: #000000; 
+    background: #ffffff; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000;
+    background: #000000;
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -63,7 +63,7 @@ section::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#000, #00f7fffa, #000);
+    background: linear-gradient(#000000, rgba(255, 0, 170, 0.98), #000);
     animation: animate 5s linear infinite;
 }
 
@@ -81,13 +81,13 @@ section span {
     display: block;
     width: calc(6.25vw - 2px);
     height: calc(6.25vw - 2px);
-    background: #181818;
+    background: #ffffff;
     z-index: 2;
     transition: 1.5s;
 }
 
 section span:hover {
-    background: #00f7fffa;
+    background: rgba(255, 0, 170, 0.98);
     transition: 0.2s;
 }
 
@@ -117,7 +117,7 @@ section span:hover {
 
 .signin .content h2 {
     font-size: 2em;
-    color: #00f7fffa;
+    color: rgba(255, 0, 170, 0.98);
     text-transform: uppercase;
 }
 
@@ -176,13 +176,13 @@ section span:hover {
 }
 
 .signin .content .form .links a:nth-child(2) {
-    color: #00f7fffa;
+    color: rgba(255, 0, 170, 0.98);
     font-weight: 600;
 }
 
 .signin .content .form .inputBox input[type="submit"] {
     padding: 10px;
-    background: #00f7fffa;
+    background: rgba(255, 0, 170, 0.98);
     color: #000;
     font-weight: 600;
     font-size: 1.35em;
